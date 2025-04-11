@@ -14,22 +14,6 @@ We propose a **fusion framework** that dynamically adjusts the sampling path by 
 
 ## 🔧 Project Structure
 
-UncertaintyFusion-Diffusion/
-├── models/
-│   └── diffusion_model.py          # Core Diffusion Model
-├── uncertainty/
-│   ├── laplace_estimator.py       # LLLA Implementation
-│   ├── mc_variance.py             # Monte Carlo Sampling Estimation
-│   └── fusion.py                  # Uncertainty Fusion Strategy
-├── scripts/
-│   ├── run_llla.py                # Run LLLA independently
-│   ├── run_mc.py                  # Run MC independently
-│   └── run_fusion.py              # Fusion strategy tuning script
-├── notebooks/
-│   └── analysis.ipynb             # Experimental results analysis and visualization
-├── results/
-│   └── fusion_vs_baseline.png     # Sample result charts
-└── README.md
 
 ## ✅ Current Progress
 
